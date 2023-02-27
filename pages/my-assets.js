@@ -66,8 +66,14 @@ export default function MyAssets() {
           {/* <div className=" text-white font-[poppins]"> */}
             <div className="flex items-center text-white justify-center">
               <div className="my-10 w-72 bg-gray-800 p-5 rounded-md shadow-xl">
-                <img src="https://miro.medium.com/max/1200/1*qGqMY0LcqT1xgdz0z9r8EA.png" alt="BAYC Ape"/>
-                  <h2 className="text-md font-bold mt-3">BAYC Ape</h2>
+                <Image
+                                            className="h-8 rounded-md w-8"
+                                            src="/img2.jpeg"
+                                            alt="Workflow"
+                                            width={300}
+                                            height={205}
+                                        />
+                  <h2 className="text-md font-bold mt-3">potato</h2>
                   <p className="text-gray-400 text-sm mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div className="flex justify-between items-center text-sm">
                     <p className="text-cyan-400 font-bold">
@@ -91,8 +97,14 @@ export default function MyAssets() {
            
             <div className="flex items-center text-white justify-center">
               <div className="my-10 w-72 bg-gray-800 p-5 rounded-md shadow-xl">
-                <img src="https://miro.medium.com/max/1200/1*qGqMY0LcqT1xgdz0z9r8EA.png" alt="BAYC Ape"/>
-                  <h2 className="text-md font-bold mt-3">BAYC Ape</h2>
+                <Image
+                                            className="h-8 rounded-md w-8"
+                                            src="/img3.jpeg"
+                                            alt="Workflow"
+                                            width={300}
+                                            height={205}
+                                        />
+                  <h2 className="text-md font-bold mt-3">apple</h2>
                   <p className="text-gray-400 text-sm mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div className="flex justify-between items-center text-sm">
                     <p className="text-cyan-400 font-bold">
@@ -116,8 +128,14 @@ export default function MyAssets() {
           
             <div className="flex items-center text-white justify-center">
               <div className="my-10 w-72 bg-gray-800 p-5 rounded-md shadow-xl">
-                <img src="https://miro.medium.com/max/1200/1*qGqMY0LcqT1xgdz0z9r8EA.png" alt="BAYC Ape"/>
-                  <h2 className="text-md font-bold mt-3">BAYC Ape</h2>
+                <Image
+                                            className="h-8 rounded-md w-8"
+                                            src="/img2.jpeg"
+                                            alt="Workflow"
+                                            width={300}
+                                            height={205}
+                                        />
+                  <h2 className="text-md font-bold mt-3">potato</h2>
                   <p className="text-gray-400 text-sm mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div className="flex justify-between items-center text-sm">
                     <p className="text-cyan-400 font-bold">
@@ -141,8 +159,14 @@ export default function MyAssets() {
           
             <div className="flex items-center text-white justify-center">
               <div className="my-10 w-72 bg-gray-800 p-5 rounded-md shadow-xl">
-                <img src="https://miro.medium.com/max/1200/1*qGqMY0LcqT1xgdz0z9r8EA.png" alt="BAYC Ape"/>
-                  <h2 className="text-md font-bold mt-3">BAYC Ape</h2>
+                <Image
+                                            className="h-8 rounded-md w-8"
+                                            src="/img3.jpeg"
+                                            alt="Workflow"
+                                            width={300}
+                                            height={205}
+                                        />
+                  <h2 className="text-md font-bold mt-3">apple</h2>
                   <p className="text-gray-400 text-sm mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div className="flex justify-between items-center text-sm">
                     <p className="text-cyan-400 font-bold">
@@ -166,8 +190,14 @@ export default function MyAssets() {
            
             <div className="flex items-center text-white justify-center">
               <div className="my-10 w-72 bg-gray-800 p-5 rounded-md shadow-xl">
-                <img src="https://miro.medium.com/max/1200/1*qGqMY0LcqT1xgdz0z9r8EA.png" alt="BAYC Ape"/>
-                  <h2 className="text-md font-bold mt-3">BAYC Ape</h2>
+                <Image
+                                            className="h-8 rounded-md w-8"
+                                            src="/img2.jpeg"
+                                            alt="Workflow"
+                                            width={300}
+                                            height={205}
+                                        />
+                  <h2 className="text-md font-bold mt-3">potato</h2>
                   <p className="text-gray-400 text-sm mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div className="flex justify-between items-center text-sm">
                     <p className="text-cyan-400 font-bold">
@@ -191,8 +221,14 @@ export default function MyAssets() {
            
             <div className="flex items-center text-white justify-center">
               <div className="my-10 w-72 bg-gray-800 p-5 rounded-md shadow-xl">
-                <img src="https://miro.medium.com/max/1200/1*qGqMY0LcqT1xgdz0z9r8EA.png" alt="BAYC Ape"/>
-                  <h2 className="text-md font-bold mt-3">BAYC Ape</h2>
+                <Image
+                                            className="h-8 rounded-md w-8"
+                                            src="/img3.jpeg"
+                                            alt="Workflow"
+                                            width={300}
+                                            height={205}
+                                        />
+                  <h2 className="text-md font-bold mt-3">apple</h2>
                   <p className="text-gray-400 text-sm mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div className="flex justify-between items-center text-sm">
                     <p className="text-cyan-400 font-bold">

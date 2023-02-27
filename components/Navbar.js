@@ -1,12 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
-  }
+}
 
 const Navbar = () => {
     return (
@@ -15,10 +16,12 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
                         <div className="flex-shrink-0">
-                            <img
+                            <Image
                                 className="h-8 w-8"
-                                src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                                src="/logo.png"
                                 alt="Workflow"
+                                width={60}
+                                height={45}
                             />
                         </div>
                         <div className="hidden md:block">
@@ -76,59 +79,82 @@ const Navbar = () => {
                                             <div className="py-1">
                                                 <Menu.Item>
                                                     {({ active }) => (
-                                                        <a
-                                                            href="/govschemee"
-                                                            className={classNames(
-                                                                active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                                                'block px-4 py-2 text-sm'
-                                                            )}
-                                                        >
-                                                            govscheme
-                                                        </a>
+
+                                                        <Link href="/govschemee">
+                                                            <a
+
+                                                                className={classNames(
+                                                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                                                    'block px-4 py-2 text-sm'
+                                                                )}
+                                                            >
+                                                                Govscheme
+                                                            </a>
+                                                        </Link>
                                                     )}
                                                 </Menu.Item>
                                                 <Menu.Item>
                                                     {({ active }) => (
-                                                        <a
-                                                            href="https://radiant-mesa-29894.herokuapp.com/"
-                                                            className={classNames(
-                                                                active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                                                'block px-4 py-2 text-sm'
-                                                            )}
-                                                        >
-                                                            Predict Quality of Crops
-                                                        </a>
+
+                                                        <Link href="https://weatherforecast-nu.vercel.app/">
+                                                            <a
+
+                                                                className={classNames(
+                                                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                                                    'block px-4 py-2 text-sm'
+                                                                )}
+                                                            >
+                                                                Weather
+                                                            </a>
+                                                        </Link>
                                                     )}
                                                 </Menu.Item>
                                                 <Menu.Item>
                                                     {({ active }) => (
-                                                        <a
-                                                            href="https://rice-disease.herokuapp.com/"
-                                                            className={classNames(
-                                                                active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                                                'block px-4 py-2 text-sm'
-                                                            )}
-                                                        >
-                                                            Disease Prediction
-                                                        </a>
+                                                        <Link href="https://radiant-mesa-29894.herokuapp.com/">
+                                                            <a
+
+                                                                className={classNames(
+                                                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                                                    'block px-4 py-2 text-sm'
+                                                                )}
+                                                            >
+                                                                Predict Quality of Crops
+                                                            </a></Link>
+
+                                                    )}
+                                                </Menu.Item>
+                                                <Menu.Item>
+                                                    {({ active }) => (
+                                                        <Link href="https://rice-disease.herokuapp.com/">
+                                                            <a
+
+                                                                className={classNames(
+                                                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                                                    'block px-4 py-2 text-sm'
+                                                                )}
+                                                            >
+                                                                Disease Prediction
+                                                            </a></Link>
+
                                                     )}
                                                 </Menu.Item>
                                                 <Menu.Item>
                                                     {({ active }) => (
                                                         <Link href="/login">
-                                                        <a         
-                                                            className={classNames(
-                                                                active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                                                'block px-4 py-2 text-sm'
-                                                            )}
-                                                        >
-                                                            Singup
-                                                        </a>
+                                                            <a
+                                                                className={classNames(
+                                                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                                                    'block px-4 py-2 text-sm'
+                                                                )}
+                                                            >
+                                                                Singup
+                                                            </a>
                                                         </Link>
-                                                        
+
                                                     )}
                                                 </Menu.Item>
-                                                 
+
                                             </div>
                                         </Menu.Items>
                                     </Transition>
@@ -168,7 +194,7 @@ const Navbar = () => {
                                         </a>
                                     </Link> */}
 
-                                
+
 
 
                             </div>

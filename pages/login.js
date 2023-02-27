@@ -25,25 +25,31 @@ const LoginPage = () => {
     return (
         <div className="flex items-center min-h-screen p-4 bg-gray-100 lg:justify-center">
             <div
-                className="flex flex-col overflow-hidden bg-white rounded-md shadow-lg max md:flex-row md:flex-1 lg:max-w-screen-md"
+                className="flex flex-col overflow-hidden bg-gray-100 bg-opacity-10 rounded-md shadow-lg max md:flex-row md:flex-1 lg:max-w-screen-md"
             >
                 <div
-                    className="p-4 py-6 text-white bg-gray-800 md:w-80 md:flex-shrink-0 md:flex md:flex-col md:items-center md:justify-evenly"
+                    className="p-4 py-6 text-black bg-back1 bg-fill bg-no-repeat bg-center md:w-80 md:flex-shrink-0 md:flex md:flex-col md:items-center md:justify-evenly"
                 >
-                    <div className="my-3 text-4xl font-bold tracking-wider text-center">
-                        <a href="#">Agroconnect
-                        main</a>
+                    <div className="bg-gray-200 backdrop-filter bg-opacity-50">
+                    <div className="my-6 text-4xl font-bold tracking-wider text-center">
+                        <a href="#">FarmsConnect</a>
                     </div>
-                    <p className="mt-6 font-normal text-center text-gray-300 md:mt-0">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nobis ipsum beatae nemo molestiae quasi dolorem atque quaerat sit similique.
+
+                    <p className="mt-6 font-normal text-center text-black md:mt-0">
+                    One Stop Place For Farmers where you can connect with other farmers , Track your crops , get direct exposure to market , You can predict your crop disease , Get instant support from our AI trained bot , Stay Updated About Goverment Schemes and agriculture news and get weather forecasting report based on your location
                     </p>
+                    
                     <p className="flex flex-col items-center justify-center mt-10 text-center">
                         <span>Dont have an account?</span>
                         <Link href="/signup" className="underline">Get Started!</Link>
                     </p>
-                    <p className="mt-6 text-sm text-center text-gray-300">
+                    
+                    <p className="mt-6 text-sm text-center text-black">
                         Read our <a href="#" className="underline">terms</a> and <a href="#" className="underline">conditions</a>
                     </p>
+                    </div>
+                    
+                    
                 </div>
                 <div className="p-5 bg-white md:flex-1">
                     <h3 className="my-4 text-2xl font-semibold text-gray-700">Account Login</h3>
@@ -89,6 +95,7 @@ const LoginPage = () => {
                             </Link>
 
                         </div>
+                        
                         {/* <div className="flex flex-col space-y-5">
                             <span className="flex items-center justify-center space-x-2">
                                 <span className="h-px bg-gray-400 w-14"></span>
