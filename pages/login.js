@@ -32,7 +32,8 @@ const LoginPage = () => {
                 >
                     <div className="bg-gray-200 backdrop-filter bg-opacity-50">
                     <div className="my-6 text-4xl font-bold tracking-wider text-center">
-                        <a href="#">FarmsConnect</a>
+                        <a href="#">FarmsConnect
+                        </a>
                     </div>
 
                     <p className="mt-6 font-normal text-center text-black md:mt-0">
